@@ -1,0 +1,46 @@
+{
+  "status": {
+    "code": 10020,
+    "description": "Failure"
+  },
+  "outputs": [
+    {
+      "id": "a529133fd80c45648c0bbd5675b78ffe",
+      "status": {
+        "code": 99009,
+        "description": "Internal error"
+      },
+      "created_at": "2017-12-19T16:13:49.978761886Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general-v1.3",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "c8c0cdb3bba3482f93ea52a17ed5cf90",
+        "data": {
+          "video": {
+            "url": "https://s3.amazonaws.com/clarifai-api/vid/prod/e63ba4efb8b441c5bb5b2267be5e2b79/ddbea9cb6997401c8cbd272486be04f1",
+            "base64": "true"
+          }
+        }
+      },
+      "data": {}
+    }
+  ]
+}
